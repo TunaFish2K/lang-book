@@ -16,7 +16,7 @@ else {
 }
 ```
 ### match-case
-`case`结束后不会立刻跳出match。
+`case`结束后会立刻跳出match。
 ```
 match (<expression>) {
     case (<value_0>) {
