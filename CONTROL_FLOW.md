@@ -71,7 +71,7 @@ for (const <var_name> of <iterable_object>) {
 ```
 class IterationEnd : Error {}
 interface Iterator<T> {
-    next(): T throws IterationEnd;
+    fun next(): T throws IterationEnd;
 }
 interface Iterable<T> {
     fun iterate(): Iterator<T>;
