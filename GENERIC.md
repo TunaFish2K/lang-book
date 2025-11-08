@@ -26,7 +26,7 @@ fun main() {
 ### 实例
 ```
 interface Addable {
-    add(y: This): This;
+    fun add(y: This): This;
 }
 class Coffee : Addable {
     content: u32;
