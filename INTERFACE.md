@@ -33,7 +33,7 @@ class B : A {
 }
 ```
 ### 常量退化
-允许继承时变量由`const`退化到`let`。
+允许实现时变量由`const`退化到`let`。
 ```
 interface A {
     const name: string;
